@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Superset: Our Journey</title>
+    <!-- connect css file-->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- for general font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <!--for menu in small fonts. Note: I used the 4 version because it actually works...-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- This if for menu stuff! for when screen small?
+                onclick: when you click, goes to that menu-->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <!-- clickable link-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Juliet.html">JULIET</a></li>
+                    <li><a href="Sean.html">SEAN</a></li>
+                    <li><a href="Jarrod.html">JARROD</a></li>
+                    <li><a href="">RACHELLE</a></li>
+
+                </ul>
+            </div>
+            <!-- for small screen thing-->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <!-- Content within Home page-->
+    <h1>Juliet: Descriptive Writing</h1>
+
+    </section>
+
+
+
+
+
+
+
+<!-- ------------------------------------->
+    <!---Footer-->
+    <section class="footer">
+        <h4>Where to find us?</h4>
+        <p> bluh bluh bluh bluh</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made by Juliet</p>
+    </section>
+
+</body>
+<!-- (JAVASCRIPT FOR TOGGLE MENU
+    script for menu thing. javascript. THE FUNCTIONS THAT ARE CALLED-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+</html>
