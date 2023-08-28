@@ -455,3 +455,85 @@ h3{
 .sub-header-dewald h1{
     margin-top: 70px;
 }
+
+
+/*===========================ADDING ARTWORK============================*/
+
+/*ABOUT US WITH PHOTOS*/
+.artwork_digital_art{
+    background-color: #ffffff;
+}
+.row{
+    margin-top: 5%;
+    margin: 0 5% 0;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.photos{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+ /*fit in col*/
+.photos-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.photos-col img{
+    /*
+- TO USE THIS, make sure image is correct sizing
+    width: 100%;*/
+    display: block;
+
+}
+
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(4, 5, 19, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
