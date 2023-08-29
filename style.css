@@ -544,7 +544,7 @@ h3{
 /*ABOUT US SECTION*/
 
 .word_btn_rep{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 0;
@@ -562,14 +562,7 @@ p{
     padding: 0 0 30px;
 }
 
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-
-
-}
-
+/*acutal part in middle*/
 .word_btn_rep-col{
     flex-basis: 31%;
     background: #576d58;
@@ -578,6 +571,7 @@ p{
     padding: 30px 30px;/*30px 12px;*/
     box-sizing: border-box;
     transition: 0.5s;
+    
 }
 h3{
     text-align: center;
@@ -586,7 +580,7 @@ h3{
 }
 /*For shaddow!*/
 .word_btn_rep-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 
 /* for smaller screen*/
