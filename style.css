@@ -170,12 +170,14 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    
 }
-h1{
+.aboutus h1{
     font-size: 36px;
     font-weight: 600;
+    color:#000000;
 }
-p{
+.aboutus p{
     color: #5f5e5e;
     font-size: 25px;
     font-weight: 300;
@@ -571,6 +573,11 @@ p{
     padding: 30px 30px;/*30px 12px;*/
     box-sizing: border-box;
     transition: 0.5s;
+
+
+    display: flex;
+    flex-direction: column;
+
     
 }
 h3{
@@ -586,6 +593,8 @@ h2{
     font-size: 20px;
 }
 
+
+
 /*For shaddow!*/
 .word_btn_rep-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
@@ -599,3 +608,80 @@ h2{
     }
 }
 
+
+
+/*OVERVIEW*/
+
+.overview{
+    width: 90%;
+    margin: 0 90px;
+    text-align: left;
+    padding: 20px 33%;
+    display: block;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    color: #000;
+    border: 3px solid #000;
+    border-left: #fff;
+    border-right: #fff;
+
+     /* Align text like content in the second column */
+   /* display: flex;
+    flex-direction: column;
+    align-items: left;*/
+   /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+
+
+/*
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left; 
+    text-decoration: none;
+    color: #000;
+    border: 3px solid #000;
+    border-left: #fff;
+    border-right: #fff;*/
+    
+}
+
+/* Add a new class for the next row to align to the left */
+.next_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.overview h1,
+.overview h2,
+.overview h3,
+.overview p {
+    margin: 0;
+}
+
+.overview h1{
+    text-align: left;
+    font-weight: 600;
+    margin: 0 0;
+    font-size: 30px;
+    color: #000;
+}
+
+.overview h2{
+    text-align: left;
+    font-weight: 600;
+    margin: 0 0;
+    font-size: 20px;
+}
+
+.overview h3{
+    text-align: left;
+    font-weight: 400;
+    margin: 0 0;
+    font-size: 20px;
+}
