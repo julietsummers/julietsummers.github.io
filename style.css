@@ -578,6 +578,14 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
+
+h2{
+    text-align: left;
+    font-weight: 400;
+    margin: 0 0;
+    font-size: 20px;
+}
+
 /*For shaddow!*/
 .word_btn_rep-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
