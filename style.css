@@ -691,8 +691,8 @@ h2{
 .book {
     width: 60%;
     margin: 50px auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffc8;
+    box-shadow: 0 0 150px rgba(0, 0, 0, 0.1);
 }
 
 .cover img {
