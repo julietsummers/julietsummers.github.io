@@ -685,3 +685,44 @@ h2{
     margin: 0 0;
     font-size: 20px;
 }
+
+/*------ BOOK ------*/
+
+.book {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #000;
+}
+
+.content p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #888;
+}
+
+.chapter {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.chapter p {
+    font-size: 16px;
+    color: #000;
+}
