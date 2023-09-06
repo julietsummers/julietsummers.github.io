@@ -136,7 +136,7 @@ nav .fa{
         display: block;
     } 
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: #c8b8d6;
         height: 100vh; /*compelte height*/
         width: 200px;
